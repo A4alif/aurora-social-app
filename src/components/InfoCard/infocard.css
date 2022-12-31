@@ -1,0 +1,36 @@
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 95%;
+    margin: 2rem 0;
+}
+.infoCard .infoHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.infoCard .infoHead .icon{
+    width: 2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+.infoCard .info{
+    display: flex;
+    gap: .5rem;
+}
+.infoCard .info >span:nth-of-type(1){
+    font-weight: bold;
+
+}
+.infoCard .log-btn{
+    height: 2.5rem;
+    width: 70%;
+    align-self: start;
+    font-size: 1.5rem;
+    margin: 1.2rem 0 .75rem 0;
+}

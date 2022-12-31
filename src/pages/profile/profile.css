@@ -1,0 +1,12 @@
+.profile {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18rem auto 18rem;
+}
+.profileCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+  padding: 0 5rem;
+}
